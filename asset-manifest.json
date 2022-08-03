@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.43087582.css",
+    "main.js": "/Portfolio/static/js/main.332ddbf0.js",
+    "static/media/pofo.png": "/Portfolio/static/media/pofo.cd9b377d8fd330cf7a33.png",
+    "static/media/eventick.png": "/Portfolio/static/media/eventick.46259b828adc6e055d9c.png",
+    "static/media/artha.png": "/Portfolio/static/media/artha.3e264fffc4f9ccc91012.png",
+    "static/media/figma.png": "/Portfolio/static/media/figma.ef2481f643eab9d17091.png",
+    "static/media/mobo.png": "/Portfolio/static/media/mobo.f1cb19f904d44de26b25.png",
+    "static/media/genki.png": "/Portfolio/static/media/genki.1f134946069ff9b9c96e.png",
+    "static/media/flexiBlog.png": "/Portfolio/static/media/flexiBlog.71c5063c4208e2b63c1d.png",
+    "static/media/foodApp.png": "/Portfolio/static/media/foodApp.3ec562434ce99d01ca01.png",
+    "static/media/hero-bg.jpg": "/Portfolio/static/media/hero-bg.36261cb4087c698ee314.jpg",
+    "static/media/heroImg.jpeg": "/Portfolio/static/media/heroImg.3f15f64e69a815eef73f.jpeg",
+    "static/media/logo.png": "/Portfolio/static/media/logo.6b07791cfddf40adfb77.png",
+    "index.html": "/Portfolio/index.html",
+    "main.43087582.css.map": "/Portfolio/static/css/main.43087582.css.map",
+    "main.332ddbf0.js.map": "/Portfolio/static/js/main.332ddbf0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43087582.css",
+    "static/js/main.332ddbf0.js"
+  ]
+}
