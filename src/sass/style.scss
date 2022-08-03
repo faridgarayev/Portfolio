@@ -1,0 +1,39 @@
+@import 'properties';
+@import 'header';
+@import 'keyframe';
+@import 'home';
+@import 'about';
+@import 'projects';
+@import 'contact';
+@import 'cursor';
+
+
+html
+{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background: $primaryColor;
+}
+
+.pages
+{
+    // background: $primaryColor;
+    color: $textColor;
+    padding-top: 8%;
+}
+
+
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: $primaryColor;
+}
+
+::-webkit-scrollbar-track{
+    background-color:  $primaryColor;  
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: $mainColor;
+    border-radius: 30px;
+}

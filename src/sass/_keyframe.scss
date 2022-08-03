@@ -1,0 +1,31 @@
+@keyframes disvcovericonanime {
+    0% {transform: scale(1.2);}
+    50% {transform: scale(0.8);}
+    100% {transform: scale(0.5);}
+}
+
+@keyframes herocontaineranime{
+    0% {transform: translate(-1000px, 250px);}
+    100% {transform: translate(100px, 250px);}
+}
+
+@keyframes heroImganime{
+    0% {transform: translateX(1000px);}
+    100% {transform: translateX(0);}
+}
+
+@keyframes titleFirstamime{
+    0% {transform: translateY(-1000px);}
+    100% {transform: translateY(0);}
+}
+
+@keyframes titleSecamime{
+    0% {transform: translateY(1000px);}
+    100% {transform: translateY(0);}
+}
+
+
+@keyframes blockanime{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

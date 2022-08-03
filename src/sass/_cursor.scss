@@ -1,0 +1,54 @@
+body
+{
+    cursor: none;
+}
+
+.content p
+{
+    width: 700px;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cursor
+{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $mainColor;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .01s;
+    z-index: 12;
+}
+
+.cursor2
+{
+    position: fixed;
+    width: 7px;
+    height: 7px;
+    background-color: $textColor;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .7s;
+    z-index: 12;
+}
+
+.content:hover ~ .cursor
+{
+    transform: translate(-50%, -50%) scale(1.5);
+    background-color: #c6c6c6;
+    opacity: .5;
+}
+
+.content:hover ~ .cursor2
+{
+    opacity: 0;
+}
